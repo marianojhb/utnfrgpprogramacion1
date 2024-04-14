@@ -10,7 +10,7 @@ using namespace std;
 int main() {
     int divisores = 0;
     int cuentaPrimos=0;
-    for (int i=2 ; i<=10000; i++) { // el 1 no cuenta como primo y comenzamos con el 2
+    for (int i=2 ; i<=1000; i++) { // el 1 no cuenta como primo y comenzamos con el 2
         divisores = 0;
         for (int j=1; j<i; j++){
             if (i%j == 0) {
@@ -19,13 +19,10 @@ int main() {
         }
         if (divisores < 2) {
             cuentaPrimos++;
-            cout << "numero analizado=" << i << endl;
-            cout << "divisores=" << divisores << endl;
-            cout << " " << i << " " << endl;
-            cout << "---" << endl;
+            cout << " " << i;
         }
     }
-    cout << "Cuenta primos=" << cuentaPrimos << endl;
+    cout << endl << "Cuenta primos=" << cuentaPrimos << endl;
 
 
 	return 0;

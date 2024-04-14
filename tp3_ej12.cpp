@@ -8,8 +8,8 @@
 using namespace std;
 
 int main() {
-    int mp; // maximo de los positivos
-    int mn; // minimo de los negativos
+    int mp; // minimo de los positivos
+    int mn; // maximo de los negativos
     int ingreso;
     int i;
     cout << "1) Ingrese un numero: ";
@@ -19,10 +19,10 @@ int main() {
     for (i=2;i<=10;i++) {
         cout << i << ") Ingrese un numero: ";
         cin >> ingreso;
-        if (ingreso > 0 && ingreso > mp) {
+        if (ingreso > 0 && ingreso < mp) {
             mp = ingreso;
         }
-        if (ingreso < 0 && ingreso < mn) {
+        if (ingreso < 0 && ingreso > mn) {
             mn = ingreso;
         }
     }
