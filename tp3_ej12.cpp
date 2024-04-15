@@ -8,24 +8,37 @@
 using namespace std;
 
 int main() {
-    int mp; // minimo de los positivos
-    int mn; // maximo de los negativos
+    int minimoPositivo; // minimo de los positivos
+    int maximoNegativo; // maximo de los negativos
     int ingreso;
-    int i;
-    cout << "1) Ingrese un numero: ";
-    cin >> ingreso;
-    mp = ingreso;
-    mn = ingreso;
-    for (i=2;i<=10;i++) {
+    bool primerPositivo=true;
+    bool primerNegativo=true;
+
+    for (int i=1; i <= 10; i++) {
         cout << i << ") Ingrese un numero: ";
         cin >> ingreso;
-        if (ingreso > 0 && ingreso < mp) {
-            mp = ingreso;
+
+        if (ingreso < 0) {
+            if (primerNegativo) {
+            maximoNegativo = ingreso;
+            primerNegativo = false;
+            }
+            if (ingreso>maximoNegativo) {
+                maximoNegativo=ingreso;
+            }
         }
-        if (ingreso < 0 && ingreso > mn) {
-            mn = ingreso;
+
+        if (ingreso>0) {
+            if (primerPositivo) {
+                minimoPositivo = ingreso;
+                primerPositivo = false;
+            }
+            if (ingreso<minimoPositivo) {
+                minimoPositivo = ingreso;
+            }
         }
+
     }
-    cout << "El maximo de los positivos es " << mp << " y el minimo de los negativos es " << mn;
+    cout << "El minimo de los positivos es " << minimoPositivo << " y el maximo de los negativos es " << maximoNegativo;
 	return 0;
 }
