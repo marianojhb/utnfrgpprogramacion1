@@ -23,7 +23,7 @@ int main() {
                 }
             }
 
-        } else if (primeroNegativo == false){
+        } else if (ingreso < 0){
             if (primeroNegativo == false) {
                 if (ingreso > maximoNegativo) {
                     maximoNegativo = ingreso;
@@ -31,8 +31,6 @@ int main() {
             }
         }
 
-        cout << "Ingrese un numero: ";
-        cin >> ingreso;
 
         if (ingreso > 0) {
             if (primeroPositivo) {
@@ -40,10 +38,14 @@ int main() {
                 primeroPositivo = false;
             }
         } else if (ingreso < 0) {
-            primeroNegativo = false;
-            maximoNegativo = ingreso;
+            if (primeroNegativo) {
+                maximoNegativo = ingreso;
+                primeroNegativo = false;
+            }
         }
 
+        cout << "Ingrese un numero: ";
+        cin >> ingreso;
     } // fin While
 
     cout << "Maximo negativo=" << maximoNegativo << endl;

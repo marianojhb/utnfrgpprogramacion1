@@ -11,26 +11,26 @@ int main() {
     int ingreso;
     int maximo;
     int minimo;
-    bool primero;
+    bool primero = true;
+    cout << "Ingrese un numero: ";
+    cin >> ingreso;
     while (ingreso != 0) {
+        if (primero) {
+            maximo = ingreso;
+            minimo = ingreso;
+            primero=false;
+        }
         if (ingreso > maximo) {
             maximo = ingreso;
-        } else if (ingreso < minimo){
+        }
+
+        if (ingreso < minimo){
             minimo = ingreso;
         }
 
 
         cout << "Ingrese un numero: ";
         cin >> ingreso;
-
-        if (primero) {
-            maximo = ingreso;
-            minimo = ingreso;
-            primero=false;
-        }
-
-
-
 
         } // Fin While
     cout << "Maximo=" << maximo << endl;

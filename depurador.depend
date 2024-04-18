@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1713234526 source:/home/mabelo/Documents/Programacion1/depurador/ejemplo.cpp
+	<iostream>
+
+1713234526 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/ejemplo.cpp
+	<iostream>
+
+1713457209 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej10.cpp
+	<iostream>
+
+1712281475 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/calculadora.cpp
+	<iostream>
+
+1711369557 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp1_ej4_avion.cpp
+	<iostream>
+
+1711378638 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp2_ej23_bimestre.cpp
+	<iostream>
+
+1711371311 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp2_ej24_trimestre.cpp
+	<iostream>
+
+1712327311 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp2_ej2b.cpp
+	<iostream>
+
+1712319505 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp2_ej4.cpp
+	<iostream>
+
+1713149814 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej03.cpp
+	<iostream>
+
+1712488621 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej1.cpp
+	<iostream>
+
+1712519807 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej10.cpp
+	<iostream>
+
+1712520175 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej11.cpp
+	<iostream>
+
+1713133254 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej12.cpp
+	<iostream>
+
+1712581890 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej13.cpp
+	<iostream>
+
+1712790728 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej14.cpp
+	<iostream>
+
+1712804249 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej15.cpp
+	<iostream>
+
+1712844711 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej16.cpp
+	<iostream>
+
+1712845183 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej16b.cpp
+	<iostream>
+
+1712846716 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej17.cpp
+	<iostream>
+
+1712847970 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej18.cpp
+	<iostream>
+
+1712848171 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej19.cpp
+	<iostream>
+
+1712488749 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej2.cpp
+	<iostream>
+
+1712848256 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej20.cpp
+	<iostream>
+
+1712848633 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej21.cpp
+	<iostream>
+
+1712853267 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej22.cpp
+	<iostream>
+
+1712873521 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej23.cpp
+	<iostream>
+
+1712874506 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej24.cpp
+	<iostream>
+
+1712875326 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej25.cpp
+	<iostream>
+
+1712926525 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej26.cpp
+	<iostream>
+
+1712886283 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej27.cpp
+	<iostream>
+
+1712923296 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej28.cpp
+	<iostream>
+
+1712925290 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej29.cpp
+	<iostream>
+
+1712489015 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej3.cpp
+	<iostream>
+
+1713049509 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej30.cpp
+	<iostream>
+
+1713066628 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej31.cpp
+	<iostream>
+
+1713129265 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej32.cpp
+	<iostream>
+
+1713132454 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej33.cpp
+	<iostream>
+
+1712489181 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej4.cpp
+	<iostream>
+
+1712489529 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej5.cpp
+	<iostream>
+
+1712490208 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej6.cpp
+	<iostream>
+
+1712491788 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej7.cpp
+	<iostream>
+
+1712492795 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej8.cpp
+	<iostream>
+
+1712519371 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp3_ej9.cpp
+	<iostream>
+
+1713149649 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej01.cpp
+	<iostream>
+
+1713149730 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej02.cpp
+	<iostream>
+
+1713149891 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej03.cpp
+	<iostream>
+
+1713150265 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej04.cpp
+	<iostream>
+
+1713151194 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej05.cpp
+	<iostream>
+
+1713151470 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej06.cpp
+	<iostream>
+
+1713151834 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej07.cpp
+	<iostream>
+
+1713192222 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej08.cpp
+	<iostream>
+
+1713191168 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej09.cpp
+	<iostream>
+
+1713454412 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej11.cpp
+	<iostream>
+
+1713453989 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej13.cpp
+	<iostream>
+
+1713458791 source:/home/mabelo/Documents/Programacion1/utnfrgpprogramacion1/tp4_ej12.cpp
+	<iostream>
+
