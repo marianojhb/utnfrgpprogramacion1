@@ -31,7 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="tp4_ej10.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

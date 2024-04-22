@@ -35,19 +35,18 @@ int main() {
     int contarDiasNeblina = 0;
     int contarDiasLluvia = 0;
 
-    // dia 1:
-    cout << "ingresar dia 1: temperatura lluvia visibilidad: " ;
-    cin >> temperatura >> lluvia >> visibilidad;
-
-    // seteos iniciales con el dia 1
-    diaTempMax = dia;
-    minTemp = temperatura;
-    maxTemp = temperatura;
-
-    // recorro los demas dias
-    for (int i = 2; i<=15; i++) {
+    // recorro los dias
+    for (int i = 1; i<=15; i++) {
         cout << "ingresar dia " << i << ": temperatura lluvia visibilidad: " ;
-        cin  >> temperatura >> lluvia >> visibilidad;
+        cin >> temperatura >> lluvia >> visibilidad;
+
+        // seteos iniciales con el dia 1
+        if (i==1){
+            diaTempMax = dia;
+            minTemp = temperatura;
+            maxTemp = temperatura;
+        }
+        // comparaciones
         if (temperatura > maxTemp) {
             diaTempMax = i;
             maxTemp = temperatura;

@@ -10,7 +10,6 @@ using namespace std;
 int main() {
 
     int maximo;
-    bool primero=true;
     int ingreso;
     int segundoMaximo;
 
@@ -18,9 +17,8 @@ int main() {
         cout << i << ")Ingrese un numero: ";
         cin >> ingreso;
 
-        if (primero) {
+        if (i==1) {
             maximo = ingreso;
-            primero=false;
         }
 
         if (ingreso>maximo) {

@@ -1,7 +1,8 @@
 // Ejercicio TP Ej
 // Autor:
 // Fecha:
-// Comentario
+// Comentario Hacer un programa que permita ingresar el legajo y sueldo de 10 empleados y determine:
+//    • El legajo del empleado con mayor sueldo
 
 # include<iostream>
 
@@ -12,12 +13,14 @@ int main() {
     int maximo;
     int ingreso_sueldo;
     int ingreso_legajo;
-    cout << "Ingrese legajo y sueldo: ";
-    cin >> legajo >> maximo;
 
-    for (int i=2; i<=10; i++) {
+    for (int i=1; i<=10; i++) {
         cout << "Ingrese legajo y sueldo " << i << ": ";
-        cin >> ingreso_legajo >> ingreso_sueldo;
+        if (i==1) {
+            cin >> legajo >> maximo;
+        } else {
+            cin >> ingreso_legajo >> ingreso_sueldo;
+        }
         if (ingreso_sueldo>maximo) {
             maximo = ingreso_sueldo;
             legajo = ingreso_legajo;

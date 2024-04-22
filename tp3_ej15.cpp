@@ -10,25 +10,25 @@ using namespace std;
 int main() {
     bool ordenado = true;
     int ingreso;
-    cout << "1) Ingresar un numero: ";
-    cin >> ingreso;
     int numeroAnterior;
-    for (int i=2 ; i <= 8; i++) {
-        numeroAnterior = ingreso;
+
+    for (int i=1 ; i <= 8; i++) {
         cout << i << ") Ingresar un numero: ";
         cin >> ingreso;
-        if( numeroAnterior > ingreso ) {
-            ordenado=false;
+        if (i == 1) {
+            numeroAnterior = ingreso;
+        } else {
+            if( numeroAnterior > ingreso ) {
+                ordenado=false;
+            }
         }
+        numeroAnterior=ingreso;
     }
+
     if ( ordenado == true ) {
         cout << "Conjunto ordenado";
     } else {
         cout << "Conjunto desordenado";
     }
-
-
-
-
 	return 0;
 }

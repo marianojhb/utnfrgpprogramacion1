@@ -1,7 +1,7 @@
-// Ejercicio TP EJ
+// Ejercicio TP3 EJ18
 // Autor:
 // Fecha:
-// Comentario
+// Hacer un programa para ingresar un número y luego informar todos los divisores pares de ese número.
 
 # include<iostream>
 

@@ -1,7 +1,7 @@
 // Ejercicio TP Ej
 // Autor:
 // Fecha:
-// Comentario
+// Comentario Dada una lista de 10 números informar la cantidad de duplas de números impares que se hayan ingresado consecutivamente.
 
 # include<iostream>
 
@@ -11,13 +11,13 @@ int main() {
     int ingreso;
     int cuentaDuplas = 0;
     int ultimo;
-    cout << "Ingrese un numero: ";
-    cin >> ingreso;
-    ultimo=ingreso;
-    for (int i=2; i<=10;i++) {
+
+    for (int i=1; i<=10; i++) {
         cout << "Ingrese un numero: ";
         cin >> ingreso;
-        if (ingreso %2 != 0 && ultimo %2 != 0) {
+        if ( i==1 ) {
+            ultimo=ingreso;
+        } else if (ingreso %2 != 0 && ultimo %2 != 0) {
          cuentaDuplas++;
         }
         ultimo = ingreso;

@@ -24,12 +24,16 @@ int main() {
             cantImpar++;
             if(cantImpar==1){
                 primerImpar = ingreso;
-            }
-            if (cantImpar == 2) {
+                ultimoImpar = ingreso;
+            } else if (cantImpar == 2) {
                 segundoImpar = ingreso;
+                anteUltimoImpar=ultimoImpar;
+                ultimoImpar = ingreso;
+
+            } else {
+                anteUltimoImpar = ultimoImpar;
+                ultimoImpar=ingreso;
             }
-            anteUltimoImpar = ultimoImpar;
-            ultimoImpar=ingreso;
         }
     }
 

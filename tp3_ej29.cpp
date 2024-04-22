@@ -2,6 +2,21 @@
 // Autor:
 // Fecha:
 // Comentario
+/*
+Se dispone de la información de los últimos 19 partidos del futbolista Diego Armando Laradona. Por cada partido se registró:
+    • Número de partido
+    • Minutos jugados
+    • Tarjetas amarillas
+    • Tarjetas rojas
+    • Goles
+
+Existe un registro para cada partido. Los mismos se encuentran ordenados por número de partido. Se pide calcular e informar:
+    • La cantidad de partidos que no jugó (partidos con minutos igual a cero)
+    • La cantidad de partidos que jugó por completo (minutos >= 90)
+    • El promedio de tarjetas recibidas por partido.
+    • El número de partido en el que haya convertido mayor cantidad de goles. Indicar también los goles convertidos.
+    • La mejor racha de partidos convirtiendo goles. Se debe mostrar la mayor cantidad de partidos consecutivos en los que haya convertido.
+    */
 
 # include<iostream>
 
@@ -59,8 +74,6 @@ int main() {
             marcoUltimo = false;
             racha = 0;
         }
-
-
     }
 
     cout << "Partidos que no jugó: " << partidosSinJugar << endl;
@@ -68,20 +81,6 @@ int main() {
     cout << "Promedio de tarjetas por partido: " << (float)tarjetas/partidosTotales*100 << "% " << endl;
     cout << "Partido con mas goles fue el " << partidoConMasGoles << ", con " << partidoConMasGolesGoles << " goles." << endl;
     cout << "Mejor racha: " << mejorRacha << endl;
-
-
-
-
-
-    /*
-    - La cantidad de partidos que no jugó (partidos con minutos igual a cero)
-- La cantidad de partidos que jugó por completo (minutos >= 90)
-- El promedio de tarjetas recibidas por partido.
-- El número de partido en el que haya convertido mayor cantidad de goles.
-Indicar también los goles convertidos.
-- La mejor racha de partidos convirtiendo goles. Se debe mostrar la mayor
-cantidad de partidos consecutivos en los que haya convertido
-    */
 
 	return 0;
 }

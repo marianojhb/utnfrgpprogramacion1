@@ -10,31 +10,22 @@ using namespace std;
 int main() {
     int ingreso;
     bool alternados = true;
-    bool primerIngreso = true;
     int ultimoIngreso;
 
     for (int i=1;i<=10;i++) {
         cout << "Ingrese un numero: ";
         cin >> ingreso;
 
-        if (primerIngreso) {
+        if (i==1) {
             ultimoIngreso = ingreso;
-            primerIngreso = false;
-        }
-
-        if (alternados && i > 1) {
-            if ( (ultimoIngreso %2 == 0 && ingreso %2 != 0 ) || (ultimoIngreso %2 != 0 && ingreso %2 == 0) ) {
-            ultimoIngreso = ingreso;
-
-            } else {
+        } else if (alternados) {
+            if ( (ultimoIngreso %2 == 0 && ingreso %2 == 0 ) || (ultimoIngreso %2 != 0 && ingreso %2 != 0) ) {
                 alternados = false;
-                ultimoIngreso = ingreso;
+            ultimoIngreso = ingreso;
             }
         }
-
-
-
     }
+
     if (alternados) {
         cout << "Estan alternados" << endl ;
 
