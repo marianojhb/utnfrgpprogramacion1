@@ -31,7 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+<<<<<<< HEAD
 		<Unit filename="tp3_ej31.cpp" />
+=======
+		<Unit filename="../Examen/practica_parcial_ej02.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+>>>>>>> 161b2c3aee7e6f5df773a28d9271cdd749413130
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

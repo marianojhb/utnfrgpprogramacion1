@@ -20,7 +20,6 @@ Hacer un programa para ingresar un número y luego informar con un cartel aclara
 using namespace std;
 
 int main() {
-    int cantDivisores = 0;
     int sumaDivisores = 0;
     int num;
     int divisor = 1;
@@ -28,7 +27,6 @@ int main() {
     cin >> num;
     while(divisor<num) {
         if (num%divisor==0) {
-            cantDivisores++;
             sumaDivisores += divisor;
         }
         divisor++;
