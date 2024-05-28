@@ -1,0 +1,43 @@
+VECTORES
+
+Dadas las edades de los 20 alumnos de un curso, calcular e informar cuantos alumnos tienen una edad mayor a la edad promedio
+
+Calcular el promedio
+
+Comparar cada edad con el promedio, y contar las que son mayores
+
+Habria que pedir 2 veces el ingreso de los datos. No es posible.
+
+O guardar los datos en 20 variables distintas. Tampoco es posible.
+
+
+Para estos casos existen otros tipos de variables.
+
+Hasta ahora vimos variables simples (entero, float, bool, etc). Pueden almacenar 1 solo valor a la vez.
+
+Luego están las variables compuestas o complejas. Pueden almacenar más de 1 valor. Almacenan de hecho un conjunto de valores al mismo tiempo, bajo un mismo nombre de variable.
+
+Un tipo de variables complejas son los vectores.
+
+Tambien hay matrices, registros.
+
+Vector: es una variable que puede almacenar bajo un nombre un conjunto de valores DEL MISMO TIPO. La cantidad de valores debe definirse al momento de la declaración.
+
+Al declarar el vector se debe indicar entre corchetes, al lado del nombre, la cantidad de componentes que se necesitan.
+
+Al usar el evector, la primera posición será la 0, por lo que la última prosición será la 4 en el ejemplo de un vector de tamaño 5. O sea que será igual a la cantidad definida menos 1. 
+
+
+
+RESOLVER
+
+Para el mismo vector, y conjunto de datos cargados, calcular e informar: 
+a) cantidad de alumnos con una edad mayor a un valor que se ingresa por teclado.
+b) cantidad de alumnos con una edad menor a un valor que se ingresa por teclado.
+c) cantidad de alumnos con una edad igual a un valor que se ingresa por teclado.
+d) la edad maxima
+e) La edad minima
+f) La edad maxima, indicando cuantas veces se repiten
+g) La edad minima, indicando cuantas veces se repiten
+	
+
