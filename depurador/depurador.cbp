@@ -31,7 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../ejercicio_en_clase_27-5-2024.cpp" />
+		<Unit filename="../_base(testdados).cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

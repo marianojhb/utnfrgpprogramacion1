@@ -10,7 +10,7 @@ Algoritmo TP516
 	Leer n
 	Leer u
 	Leer importe
-	Mientras n!=0 Hacer
+	Mientras n<>0 Hacer
 		Segun n  Hacer
 			1:
 				suma1 = suma1+importe
